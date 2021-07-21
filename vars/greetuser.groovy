@@ -1,4 +1,4 @@
-def call (String username = 'null')
+def call (String username ='null')
 echo "This is a shared library greetuser: ${username}"
 pipeline {
   environment {
